@@ -385,6 +385,15 @@ Basándose en experimentos con cuadrículas aleatorias (20% bombas, 30% RadAway,
 
 ---
 
+## 🆕 Cambios Recientes (Julio 2025)
+
+- **Visualización del camino óptimo**: Ahora el camino se muestra solo como texto (coordenadas y resumen de RadAway recolectado) cuando n ≤ 20. Ya no se abre ninguna ventana gráfica para el camino.
+- **Gráficos comparativos**: Se mantienen y mejoran los gráficos de comparación de tiempo, memoria y llamadas recursivas entre Array 3D y Dictionary Hash. Estos gráficos se muestran al finalizar la batería de experimentos (opción 5).
+- **Menú y experiencia de usuario**: El menú sigue siendo interactivo y amigable, y los resultados de cada experimento muestran claramente la ruta óptima y las métricas de rendimiento.
+- **Código más robusto**: Se corrigieron errores de asignación y se mejoró la gestión de retornos para facilitar la generación de gráficos automáticos.
+
+---
+
 ## 📚 **Referencias y Documentación Adicional**
 
 - **📖 Documentación Técnica**: Ver `MANUAL_USUARIO.md`
